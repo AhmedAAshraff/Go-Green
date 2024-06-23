@@ -1,0 +1,145 @@
+.home {
+  height: auto;
+  width: 100%;
+}
+
+.logo {
+  background-image: url(../assets/logo.png);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+}
+.home .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.text h1 {
+  color: var(--mycolorh);
+  text-align: center;
+  font-family: "Abhaya Libre";
+  font-size: 85px;
+  width: 80%;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 75.521%; /* 72.5px */
+}
+.text p {
+  margin-top: 25px;
+  color: var(--mycolorp);
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 75.521%; /* 24.167px */
+}
+.text .btn {
+  margin-top: 75px;
+  color: #f7f7f7;
+  font-family: Inter;
+  font-size: 35px;
+  font-style: normal;
+  width: 350px;
+  height: 70px;
+  font-weight: 500;
+  border-radius: 50px;
+  border: none;
+  background: var(--mycolorbg);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: 0.5s ease-in-out;
+}
+.text .btn:hover {
+  cursor: pointer;
+  color: var(--mycolorbg);
+  background-color: #daefdb;
+  font-weight: 800;
+  width: 380px;
+}
+@media only screen and (max-width: 1024px) {
+  .text .btn {
+    width: 100%;
+  }
+  .text .btn:hover {
+    cursor: pointer;
+    color: var(--mycolorbg);
+    background-color: #daefdb;
+    width: 100%;
+  }
+  .home .text h1 {
+    width: 100%;
+  }
+  .logo {
+    background-image: url(../assets/logo.png);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 27vh;
+    width: 100%;
+  }
+  .text h1 {
+    color: var(--mycolorh);
+    text-align: center;
+    font-family: "Abhaya Libre";
+    font-size: 45px;
+    width: 80%;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 75.521%; /* 72.5px */
+  }
+  .text p {
+    margin-top: 25px;
+    color: var(--mycolorp);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 75.521%; /* 24.167px */
+  }
+}
+@media only screen and (max-width: 444px) {
+  .text .btn {
+    width: 60%;
+  }
+  .text .btn:hover {
+    cursor: pointer;
+    color: var(--mycolorbg);
+    background-color: #daefdb;
+    width: 70%;
+  }
+  .home .text h1 {
+    width: 70%;
+  }
+  .logo {
+    background-image: url(../assets/logo.png);
+    background-position: top;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    height: 27vh;
+    width: 100%;
+  }
+  .text h1 {
+    color: var(--mycolorh);
+    text-align: center;
+    font-family: "Abhaya Libre";
+    font-size: 30px;
+    width: 95%;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 78.521%; /* 72.5px */
+  }
+  .text p {
+    margin-top: 25px;
+    color: var(--mycolorp);
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    width: 80%;
+    line-height: 98.521%; /* 24.167px */
+  }
+}

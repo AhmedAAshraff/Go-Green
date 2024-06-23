@@ -1,0 +1,71 @@
+.header1 {
+  width: 100%;
+  background-image: url(../assets/Flower1.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+.header1-text p span {
+  text-decoration-line: underline;
+}
+
+.header1-text {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  padding-top: 100px;
+  padding-bottom: 160px;
+  text-align: center;
+}
+.header1-text h1 {
+  color: var(--mycolorbg);
+  font-family: "Kaushan Script";
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header1-text p {
+  color: #111;
+  font-family: Lobster;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media only screen and (max-width: 624px) {
+  .header1-text h1 {
+    color: var(--mycolorbg);
+    font-family: "Kaushan Script";
+    font-size: 80px;
+  }
+  .header1-text p {
+    color: #111;
+    font-family: Lobster;
+    font-size: 25px;
+  }
+  
+.header1-text {
+    padding-top: 50px;
+}
+}
+@media only screen and (max-width: 500px) {
+
+.header1-text h1 {
+    color: var(--mycolorbg);
+    font-family: "Kaushan Script";
+    font-size: 60px;
+  }
+  .header1-text p {
+    color: #111;
+    font-family: Lobster;
+    font-size: 20px;
+  }
+  
+.header1-text {
+    padding-top: 35px;
+}
+}

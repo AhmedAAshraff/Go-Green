@@ -1,0 +1,172 @@
+.features {
+  margin: 0;
+  padding: 0;
+  background: url(../assets/wave1.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  width: 100%;
+  height: auto;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.heading h1 {
+  color: var(--mycolorh);
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.heading p {
+  color: var(--mycolorp);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.all-card {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(auto, 1fr));
+  align-items: center;
+  place-items: center;
+  padding-bottom: 80px;
+}
+.down {
+  padding-top: 300px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 220px;
+}
+.cards h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.cards p {
+  color: #7b7a7a;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.333px;
+}
+.feat-img img {
+  background-color: var(--mycolorbg);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .all-card {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+  }
+  .heading h1 {
+    color: var(--mycolorh);
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .heading p {
+    color: var(--mycolorp);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .cards h1 {
+    color: var(--mycolorh);
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .cards p {
+    color: #7b7a7a;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.333px;
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 180px;
+  }
+  .feat-img img {
+    background-color: var(--mycolorbg);
+    padding: 10px;
+    /* font-size: 4rem; */
+    border-radius: 50%;
+    width: 50px;
+  }
+  .down {
+    padding-top: 0px;
+  }
+  .heading {
+    text-align: center;
+    padding-top: 0px;
+  }
+  .features {
+    background-size: 60%;
+  }
+}
+@media only screen and (max-width: 444px) {
+  .all-card {
+    grid-template-columns: repeat(1, minmax(360px, 1fr));
+  }
+  .heading h1 {
+    font-size: 30px;
+  }
+  .heading p {
+    font-size: 18px;
+  }
+  .cards h1 {
+    font-size: 28px;
+  }
+  .cards p {
+    font-size: 19px;
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 280px;
+  }
+  .heading p {
+    color: var(--mycolorp);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 60%;
+    text-align: center;
+  }
+}

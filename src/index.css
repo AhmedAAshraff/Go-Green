@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+:root {
+  --bgcolor: #fff;
+  --mycolorbg: #a5d6a7;
+  --mycolorh: #000;
+  --mycolorp: #7b7a7a;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #daefdb;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--mycolorbg);
+}
+#light {
+  background-color: #fff;
+}
+#dark {
+  background-color: #000;
+}
+.dark .home,
+.dark .about,
+.dark .main,
+.dark .footor,
+.dark .features,
+.dark .header1,
+.dark .nav,
+.dark .view,
+.dark .team,
+.dark .material {
+  background-color: #000;
+}
+.dark .home h1,
+.dark .about h1,
+.dark .main h1,
+.dark .features h1,
+.dark .header1-text p,
+.dark .active,
+.dark .view-text h1,
+.dark .team-text h1,
+.dark .material h1 {
+  color: #fff;
+}
+span {
+  color: var(--mycolorbg);
+}
+.dark .img-view img {
+  box-shadow: 0px 10px 40px var(--mycolorbg);
+}

@@ -1,0 +1,119 @@
+.about {
+  background: url(../assets/wave2.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 36%;
+  width: 100%;
+  height: auto;
+}
+.about-component {
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-component .About-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 50px;
+}
+.about-component .About-text h1 {
+  color: var(--mycolorh);
+  font-family: Futura;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.about-component .About-text p {
+  color: var(--mycolorp);
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.333px;
+}
+.about-component .about-img img {
+  width: 400px;
+  margin-top: 50px;
+  box-shadow: 5px 10px 20px var(--mycolorbg);
+  border-radius: 400px;
+}
+@media only screen and (max-width: 1024px) {
+  .about-component {
+    /* padding-top: 90px; */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .about-component .About-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    margin-bottom: 50px;
+  }
+  .about-component .about-img img {
+    width: 150px;
+    margin-bottom: 50px;
+    box-shadow: 5px 10px 20px var(--mycolorbg);
+    border-radius: 150px;
+  }
+  .about-component .About-text h1 {
+    color: var(--mycolorh);
+    font-family: Futura;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .about-component .About-text p {
+    color: var(--mycolorp);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.333px;
+  }
+}
+@media only screen and (max-width: 444px) {
+  .about-component {
+    /* padding-top: 90px; */
+    padding: 10px 0;
+   display: flex;
+   justify-content: space-around;
+  }
+  
+  .about-component .about-img img {
+    width: 150px;
+    margin-bottom: 50px;
+    box-shadow: 5px 10px 20px var(--mycolorbg);
+    border-radius: 150px;
+  }
+  .about-component .About-text h1 {
+    color: var(--mycolorh);
+    font-family: Futura;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .about-component .About-text p {
+    color: var(--mycolorp);
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.333px;
+  }
+}

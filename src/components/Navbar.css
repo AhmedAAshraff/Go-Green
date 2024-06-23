@@ -1,0 +1,40 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding:1rem 2rem;
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    box-shadow: 4px 8px 10px var(--mycolorbg);
+}
+
+nav a{
+    padding: 20px 60px;
+    font-size: 22px;
+    text-decoration: none;
+    color: var(--mycolorbg);
+    font-family: Lobster;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.active{
+    color: black;
+    font-weight: bold;
+}
+@media only screen and (max-width: 624px){
+    nav a{
+        padding: 18px 30px;
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 434px){
+    nav a{
+        padding: 16px 25px;
+        font-size: 15px;
+    }
+}
